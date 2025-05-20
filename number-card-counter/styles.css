@@ -1,0 +1,43 @@
+*{
+  padding: 0px;
+  margin:0px;
+  box-sizing:border-box;
+}
+
+body{
+  background-color:#999;
+  height:100vh;
+}
+
+.container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+
+.container-counter{
+  height:300px;
+  width:300px;
+  background-color:white;
+  box-shadow:0 0 10px 0 black;
+  border-radius:10px;
+  margin:10px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  border:none;
+  padding:10px;
+}
+
+.container-counter span{
+  font-size:1.5rem;
+  font-weight:bold;
+  color:#000;
+}
+.container-counter .counter{
+  font-size:3rem;
+  font-weight:bold;
+  color:#000;
+}
